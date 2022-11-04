@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="meal-wrapper">
+      <div class="meal-search">
+        <h1 class="title-1">Meals For Your Ingredients</h1>
+        <blockquote>“You don't need a silver fork to eat good food.” <br>
+          <cite>- Paul Prudhomme</cite>
+        </blockquote>
+        <!-- <select name="categories" id="list" class="list" onchange="getSelectValue()">
+          <option selected disabled>Choose a Category...</option>
+          <option value="Beef">Beef</option>
+          <option value="Chicken">Chicken</option>
+          <option value="Dessert">Desert</option>
+          <option value="Lamb">Lamb</option>
+          <option value="Miscellaneous">Miscellaneous</option>
+          <option value="Pasta">Pasta</option>
+          <option value="Pork">Pork</option>
+          <option value="Seafood">Seafood</option>
+          <option value="Side">Side</option>
+          <option value="Starter">Starter</option>
+          <option value="Vegan">Vegan</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Breakfast">Breakfast</option>
+          <option value="Goat">Goat</option>
+        </select> -->
+        <div class="meal-search-box">
+          <input type="text" id="search-input" placeholder="Search an Ingredient..." class="search-control">
+          <button class="search-btn btn" type="submit" id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="meal-result">
+        <h2 class="title" id="title">Your Search Results:</h2>
+        <div id="meal">
+
+          <!-- <div class="meal-item">
+
+            <div class="meal-img">
+              <img src="/images/food.jpg" alt="">
+            </div>
+
+            <div class="meal-name">
+              <h3>Potato Chips</h3>
+              <a href="#" class="recipe-btn">Get Recipe</a>
+            </div>
+            <button type="button" class="heart-btn">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div> -->
+          
+          
+        </div>
+      </div>
+
+      <div class="meal-details">
+        <button class="btn recipe-close-btn" type="button" id="recipe-close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="meal-details-content">
+          <h2 class="meals-title">Meals Name Here</h2>
+          <p class="recipe-category">Category Name</p>
+          <div class="recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi eum cumque, veniam aliquid quis quos, dolor architecto, modi quibusdam a laborum sunt eveniet iure expedita accusantium unde? Tempore, dolorem reiciendis!</p>
+          </div>
+          <div class="recipe-meal-img">
+            <img src="/images/food.jpg" alt="">
+          </div>
+          <div class="recipe-link">
+            <a href="#" target="_blank">Watch Video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
